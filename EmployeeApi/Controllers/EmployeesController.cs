@@ -59,5 +59,19 @@ public class EmployeesController : ControllerBase
         _context.Employees.Remove(emp);
         await _context.SaveChangesAsync();
         return Ok();
+
+    }
+
+     public void Sample()
+    {
+        // Your code goes here
+        Console.WriteLine("This is a sample method.");
+    }
+
+
+    public void test()
+    {
+        // Your code goes here
+        Console.WriteLine("This is a test method.");
     }
 }
