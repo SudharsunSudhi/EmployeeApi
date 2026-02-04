@@ -63,7 +63,7 @@ public class EmployeesController : ControllerBase
     }
 
     //testing
-    public void SayHello()
+    public void SayHellos()
     {
         Console.WriteLine("Hello, welcome!");
     }
