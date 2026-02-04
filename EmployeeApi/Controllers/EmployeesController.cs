@@ -62,5 +62,11 @@ public class EmployeesController : ControllerBase
 
     }
 
-    
+    //testing
+    public void SayHello()
+    {
+        Console.WriteLine("Hello, welcome!");
+    }
+
+
 }
