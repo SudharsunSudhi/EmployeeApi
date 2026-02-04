@@ -62,16 +62,5 @@ public class EmployeesController : ControllerBase
 
     }
 
-     public void Sampless()
-    {
-        // Your code goes here
-        Console.WriteLine("This is a sample method.");
-    }
-
-
-    public void testss()
-    {
-        // Your code goes here
-        Console.WriteLine("This is a test method.");
-    }
+    
 }
